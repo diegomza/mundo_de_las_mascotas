@@ -1,0 +1,402 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: brown;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+header, section, footer{
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#lateralIzq, #lateralDer {
+    width: 185px;
+    height: 2085px;
+    position: absolute;
+    background-color: rgb(212, 198, 133);
+    background-image: url("img/fondo1.png");
+    background-repeat: repeat-y;
+    background-size: contain;
+}
+
+#lateralDer {
+    right: 0;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    height: 120px;
+    z-index: 100;
+    background-color: rgb(207, 231, 149);
+}
+/* aca  el doy estilo al header */
+#logo {
+    position: absolute;
+    top: 10px;
+    left: 25px;
+    height: 100px;
+    width: 120px;
+}
+#logo img {
+    border-radius: 30px;
+    width: 120px;
+}
+#marca {
+    position: absolute;
+    top: 10px;
+    left: 180px;
+    height: 100px;
+    width: 400px;
+    text-align: center;  
+}
+
+#marca h1 {
+    font-size: 45px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#menu {
+    position: absolute;
+    top: 40px;
+    right: 25px;
+    height: 60px;
+    width: 360px;
+}
+
+#menu ul li {
+    display: inline;   
+}
+
+#menu ul li a {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid rgb(173, 210, 194);
+    font-size: 17px;
+    padding: 6px;
+    margin-left: 3.5px;
+    margin-top: 25px;
+    border-radius: 15px;
+    color: rgb(66, 107, 105);
+}
+
+#menu ul li a:hover {
+    background-color: brown;
+    color: white;
+    border: white;
+
+}
+/* fin de header */
+/* section nosotros */
+#nosotros {
+    position: relative;
+    height: 640px;
+    background-color: rgb(207, 231, 149);
+}
+
+#foto_nos {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    height: 450px;
+    width: 970px;
+}
+
+#foto_nos img {
+    border-radius: 15px;
+}
+#texto_nos{
+    position: absolute;
+    top: 460px;
+    left: 5px;                                                                                                               
+    height: 270px ;
+    width: 970px;
+}
+
+#texto_nos p {
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+}
+/* fin section nosotros*/
+/* section perros */
+#perros {
+    position: relative;
+    height: 250px;
+    background-color: rgb(207, 231, 149);
+}
+#foto_perros {
+    position: absolute;
+    top: 15px;
+    left: 25px;
+    height: 220px;
+    width: 450px;
+
+}
+#foto_perros img {
+    border-radius: 15px;
+}
+
+#texto_perros{
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    height: 220px;
+    width: 450px;
+    background-color: rgb(207, 231, 149);
+
+}
+#texto_perros p {
+    margin-top: 25px;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+}
+/* fin section perros*/
+/* section gatos */
+#gatos {
+    position: relative;
+    height: 250px;
+    background-color: rgb(207, 231, 149);
+}
+#foto_gatos{
+    position: absolute;
+    top: 15px;
+    left: 25px;
+    height: 220px;
+    width: 450px;
+}
+
+#foto_gatos img {
+    border-radius: 15px;
+}
+#texto_gatos{
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    height: 220px;
+    width: 450px;
+}
+
+#texto_gatos p {
+    margin-top: 5px;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* fin section gatos */
+/* section galeria */
+#galeria {
+    position: relative;
+    height: 425px;
+    background-color:  rgb(207, 231, 149);
+}
+#carrusel{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    height: 250px;
+    width: 970px;
+    background-color: brown;
+}
+
+#video_1{
+    position: absolute;
+    top: 260px;
+    left: 5px;
+    height: 160px ;
+    width: 320px;
+}
+
+#video_2{
+    position: absolute;
+    top: 260px;
+    left: 330px;
+    height: 160px ;
+    width: 320px;
+}
+
+#video_3{
+    position: absolute;
+    top: 260px;
+    right: 5px;
+    height: 160px ;
+    width: 320px;
+}
+/* fin section galeria*/
+/* section tips */
+#tips{
+    position: relative;
+    height: 200px;
+    background-color: rgb(207, 231, 149);
+}
+#tips a{
+    color: brown;
+}
+
+#tips a:hover{
+    text-decoration: underline;
+    color: blue;
+    font-size: 19px;
+}
+
+#foto_1, #foto_2,#foto_3, #foto_4{
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+}
+
+#texto_1, #texto_2, #texto_3, #texto_4{
+    position: absolute;
+    height: 30px;
+    width: 250px;
+}
+
+#foto_1{
+    top: 10px;
+    left: 90px;
+}
+
+#texto_1{
+    top: 30px;
+    left: 190px;
+    font-size: 13px;
+    padding-top: 10px;
+    padding-left: 5px;
+    text-align: left
+}
+
+#foto_2{
+    top: 100px;
+    left: 90px;
+}
+
+#foto_1 img, #foto_2 img, #foto_3 img, #foto_4 img{
+    border-radius: 50px;
+}
+
+#texto_2{
+    top: 110px;
+    left: 190px;
+    font-size: 13px;
+    padding-top: 10px;
+    padding-left: 5px;
+    text-align: left
+}
+
+#foto_3{
+    top: 10px;
+    right: 420px;
+}
+
+#texto_3{
+    top: 30px;
+    right: 140px;
+    font-size: 13px;
+    padding-top: 10px;
+    padding-left: 5px;
+    text-align: left
+}
+
+#foto_4{
+    top: 100px;
+    right: 420px;
+}
+
+#texto_4{
+    top: 110px;
+    right: 140px;
+    font-size: 13px;
+    padding-top: 10px;
+    padding-left: 5px;
+    text-align: left
+}
+/* fin section tips */
+
+/* boton whatsapp */
+#whatsapp {
+    position: fixed;
+    height: 80px;
+    width: 80px;
+    background-color: white;
+    border-radius: 50%;
+    bottom: 35px;
+    right: 15%;
+}
+#whatsapp img{
+    border-radius: 50px;
+}
+/* fin boton whatsapp */
+/* footer */
+footer {
+    height: 200px;
+    background-color: gray;
+}
+/* fin footer */
+/* contacto */
+#contlateralIzq, #contlateralDer {
+    width: 185px;
+    height: 720px ;
+    position: absolute;
+    background-color: rgb(212, 198, 133);
+    background-image: url("img/fondo1.png");
+    background-repeat: repeat-y;
+    background-size: contain;
+}
+
+#contlateralDer {
+    right: 0;
+}
+
+#contacto {
+    position: relative;
+    height: 600px;
+    font-size: 20px;
+    background-image: url("img/cachorro.jpg");
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+#fnombre {
+    position: absolute;
+    top: 50px;
+    left: 200px;
+}
+
+#fapellido {
+    position: absolute;
+    top:100px;
+    left: 200px;
+}
+
+#ftel {
+    position: absolute;
+    top:150px;
+    left: 200px;
+}
+
+#femail {
+    position: absolute;
+    top:200px;
+    left: 200px;
+}
+
+#ftexto{
+    position: absolute;
+    top:280px;
+    left: 200px;
+}
+
+#fenviar {
+    position: absolute;
+    top:550px;
+    left: 250px;
+}
+/* fin contacto */
